@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       {/* Page Header */}
-      <Header />
+      <Header heading="Events" />
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}

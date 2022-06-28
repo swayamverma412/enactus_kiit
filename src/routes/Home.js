@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Intro from "../components/Intro/Intro";
-import Services from "../components/Services/Services";
+import Navbar from '../components/Navbar/Navbar'
+import Intro from "../components/Home_Intro/Intro";
+import Value from "../components/Home_Values/value";
 import "./home.css";
-import Experience from "../components/Experience/Experience";
-import Works from "../components/Works/Works";
-import Portfolio from "../components/Portfolio/Portfolio";
-import Contact from "../components/Contact/Contact";
-import Footer from "../components/Footer/Footer";
+import Experience from "../components/Home_Experience/Experience";
+import About from "../components/Home_About/about";
+import Project from "../components/Home_Project/project";
+import Contact from "../components/Home_Contact/Contact";
+import Footer from "../components/Home_Footer/Footer";
 
 function Home() {
     
@@ -18,10 +18,10 @@ function Home() {
       <div
         className="App" style={{color: "white"}} >
             <Intro />
-            <Services />
+            <Value/>
             <Experience />
-            <Works />
-            <Portfolio />
+            <Project/>
+            <About />
             <Contact />
             <Footer />
         </div>

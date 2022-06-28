@@ -1,9 +1,7 @@
 import React from "react";
 import "./team_card.css";
 import pic from "../../img/image4.jpg"
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
 
 
 
@@ -21,9 +19,9 @@ const teamCard = () => {
                 <h3>Vin Diesel</h3>
                 <p>Senior App Developer</p>
                 <div class="social-links">
-                    <a href="#"><i class={Insta}></i></a>
-                    <a href="#"><i class={Facebook}></i></a>
-                    <a href="#"><i class={Gitub}></i></a>
+                    <a href="#"><i ><FaFacebook/></i></a>
+                    <a href="#"><i ><FaTwitter/></i></a>
+                    <a href="#"><i ><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>
@@ -35,9 +33,9 @@ const teamCard = () => {
                 <h3>David Corner</h3>
                 <p>Front End Developer</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i ><FaFacebook/></i></a>
+                    <a href="#"><i ><FaTwitter/></i></a>
+                    <a href="#"><i ><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>
@@ -46,12 +44,12 @@ const teamCard = () => {
                 <img src="https://1.bp.blogspot.com/-AO5j2Y9lzME/YLjr3mxiqAI/AAAAAAAACPE/KAaYYTtQTrgBE3diTbxGoc4U4fCGx-C2gCNcBGAsYHQ/s16000/team-1-4.jpg"/>
             </div>
             <div class="caption">
-                <h3>Tom Cruise</h3>
+                <h3 style={{color:"#000000"}}>Tom Cruise</h3>
                 <p>Full Stact Developer</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i><FaFacebook/></i></a>
+                <a href="#"><i><FaTwitter/></i></a>
+                <a href="#"><i><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>
