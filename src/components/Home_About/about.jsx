@@ -15,7 +15,7 @@ const About = () => {
       <div className="a-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ fontSize:"2.5rem"}}>
+          <span style={{ fontSize:"1.5rem"}}>
             What does </span>
 
           <span  style={{color:"#FCA61F"}}>enactus do?</span>
