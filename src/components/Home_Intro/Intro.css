@@ -106,5 +106,59 @@
   .i-right .blur {
     display: none;
   }
+  .i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .i-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left:4px;
+    justify-content: center;
+    align-items: center;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--white);
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .i-button {
+    width: 10rem;
+    height: 3rem;
+  }
+  .i-icons {
+    display: flex;
+    gap: 0rem;
+  }
+  .i-icons > * {
+    transform: scale(0.5);
+  }
+  .i-icons > *:hover {
+    cursor: pointer;
+  }
   
 }

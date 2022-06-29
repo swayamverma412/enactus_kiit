@@ -18,9 +18,9 @@ const Intro = () => {
           <span >enactus</span>
           <span>KIIT-KISS</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            Lorem ipsum dolor sit amet consectetur.
             <br></br> Praesentium cupiditate 
-            perferendis omnis voluptas<br></br> ipsum corporis ab magni?
+            perferendis omnis<br></br> ipsum corporis ab magni?
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

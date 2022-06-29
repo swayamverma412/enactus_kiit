@@ -46,6 +46,6 @@
 @media screen and (max-width: 480px) {
     .experience{
         transform: scale(0.7);
-        height: 15vh;
+        height: 25vh;
     }
 }

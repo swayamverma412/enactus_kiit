@@ -64,10 +64,7 @@ const Value = () => {
             }
             color="rgba(252, 166, 31, 0.45)"/>
         </motion.div>
-        <div
-          className="blur s-blur2"
-          style={{ background: "var(--purple)" }}
-        ></div>
+
       </div>
     </div>
   );

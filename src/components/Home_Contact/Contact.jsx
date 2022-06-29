@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
@@ -29,15 +29,12 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id="contact">
-      {/* left side copy and paste from work section */}
       <div className="w-left">
         <div className="contact">
-          {/* darkMode */}
           <span>Get in Touch</span>
           <span>Contact us</span>
         </div>
       </div>
-      {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
@@ -45,10 +42,7 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
-          <div
-            className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
-          ></div>
+  
         </form>
       </div>
     </div>

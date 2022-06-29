@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterStyles.css";
-import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 
 
