@@ -16,10 +16,10 @@ const About = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span>
-            What 
+            What does
           </span>
 
-          <span  style={{color:"#ffbf00"}}> does enactus do?</span>
+          <span  style={{color:"#ffbf00"}}>enactus do?</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
