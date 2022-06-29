@@ -6,15 +6,18 @@ const Experience = () => {
     <div className="experience" id='experience'>
       <div className="achievement">
         <div className="circle">8+</div>
+        <span>Years </span>
         <span style={{color:" #FCA61F"}}>Experience</span>
       </div>
       <div className="achievement">
         <div className="circle" >20+</div>
+        <span>Completed </span>
         <span  style={{color:" #FCA61F"}}>Projects</span>
       </div>
       <div className="achievement">
         <div className="circle">55+</div>
-        <span style={{color:" #FCA61F"}}>Member</span>
+        <span>Working</span>
+        <span  style={{color:" #FCA61F"}}>Member</span>
       </div>
     </div>
   );
