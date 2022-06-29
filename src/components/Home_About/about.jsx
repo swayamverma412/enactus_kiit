@@ -1,10 +1,10 @@
 import React from "react";
 import "./about.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/Encube.png";
+import Fiverr from "../../img/Enwipe.png";
+import Amazon from "../../img/Enactus.png";
+import Shopify from "../../img/Sankalp.png";
+import Facebook from "../../img/Siddhi.png";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
       </div>
       <div className="a-right">
         <motion.div
-          initial={{ rotate: 45 }}
+          initial={{ rotate: 0}}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}
@@ -51,7 +51,7 @@ const About = () => {
           <div className="a-secCircle">
             <img src={Fiverr} alt="" />
           </div>
-          <div className="a-secCircle">
+          <div className="a-secCircle" style={{border:"#ffff"}}>
             <img src={Amazon} alt="" />
           </div>{" "}
           <div className="a-secCircle">
