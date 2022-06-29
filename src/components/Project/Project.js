@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div className='project'>
             <div className='left'>
-                <h1 style={{color:"#FCA61F"}}>Training</h1>
+                <h1 style={{color:"#Ffcc00"}}>Training</h1>
                 <p>Thorough training is a necessity when traveling to space. We offer all inclusive training for pre-flight and in-flight scenarios.</p>
             </div>
             <div className='right'>
@@ -32,7 +32,7 @@ const Project = () => {
                 </div>
             </div>
             <div className='right'>
-                <h1 style={{color:"#FCA61F"}}>Training</h1>
+                <h1 style={{color:"#Ffcc00"}}>Training</h1>
                 <p>Thorough training is a necessity when traveling to space. We offer all inclusive training for pre-flight and in-flight scenarios.</p>
             </div>
         </div>
