@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
 
       <p>
-      Copyright © Enactus KIIT-KISS | All Right Reserved
+      Copyright © Enactus KIIT-KISS
       </p>
     </footer>
 

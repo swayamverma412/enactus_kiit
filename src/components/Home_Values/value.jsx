@@ -5,7 +5,6 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
 import Moon from '../../assets/moon.jpg'
 
 const Value = () => {
@@ -25,8 +24,8 @@ const Value = () => {
           <br/>
           ispum is simpley dummy text of printing
         </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download</button>
+        <a href="#">
+          <button className="button s-button">Read More</button>
         </a>
       </div>
       <div className="cards">
