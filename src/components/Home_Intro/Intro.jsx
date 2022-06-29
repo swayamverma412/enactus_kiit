@@ -18,9 +18,8 @@ const Intro = () => {
           <span >enactus</span>
           <span  style={{color:"#FCA61F"}}>KIIT-KISS</span>
           <span>
-            Lorem ipsum dolor sit amet consectetur.
-            <br></br> Praesentium cupiditate 
-            perferendis omnis<br></br> ipsum corporis ab magni?
+          Enactus is the world’s largest experiential<br></br> learning platform dedicated to creating a better world
+          <br></br> developing the next generation of entrepreneurial<br></br> leaders and social innovators...
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

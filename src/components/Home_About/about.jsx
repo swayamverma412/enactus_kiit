@@ -1,10 +1,10 @@
 import React from "react";
 import "./about.css";
-import Upwork from "../../img/Encube.png";
-import Fiverr from "../../img/Enwipe.png";
-import Amazon from "../../img/Enactus.png";
-import Shopify from "../../img/Sankalp.png";
-import Facebook from "../../img/Siddhi.png";
+import Encube from "../../img/Encube.png";
+import Enwipe from "../../img/Enwipe.png";
+import Enactus from "../../img/Enactus.png";
+import Sankalp from "../../img/Sankalp.png";
+import Siddhi from "../../img/Siddhi.png";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
 const About = () => {
@@ -20,14 +20,14 @@ const About = () => {
 
           <span  style={{color:"#FCA61F"}}>enactus do?</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+          Enactus came to life in Kalinga Institute of Industrial <br></br>
+          Technology (KIIT) and its sister institution Kalinga Institute <br></br>
+          of Social Sciences(KISS) in 2011 forming enactus KIIT-KISS under the <br></br> 
+          guidance of Dr. Kaish Q Khanur primary faculty adviser. Since then, <br></br>,
+          the student have been finding various innovative ideas to implement to<br></br> 
+          implement to improve the quality of life of those who lack or <br></br>
+          are unable to find opportunities.
+
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Contact</button>
@@ -46,19 +46,19 @@ const About = () => {
           className="a-mainCircle"
         >
           <div className="a-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Encube} alt="" />
           </div>
           <div className="a-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Enwipe} alt="" />
           </div>
           <div className="a-secCircle" style={{border:"#ffff"}}>
-            <img src={Amazon} alt="" />
+            <img src={Enactus} alt="" />
           </div>{" "}
           <div className="a-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Sankalp} alt="" />
           </div>
           <div className="a-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Siddhi} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

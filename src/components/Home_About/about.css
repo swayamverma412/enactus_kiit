@@ -25,9 +25,11 @@
   font-weight: bold;
 }
 .awesome > :nth-child(3) {
-  color: var(--gray);
+  color: #ffff;
   font-size: 14px;
   margin-top: 1rem;
+  font-family: sans-serif;
+
 }
 .s-button {
   width: 10rem;
