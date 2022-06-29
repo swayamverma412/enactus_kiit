@@ -20,9 +20,8 @@ const Value = () => {
         <span style={{ color: "white"  }}>What</span>
         <span style={{color:"#FCA61F"}}>we believe in?</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br/>
-          ispum is simpley dummy text of printing
+        Enactus is a nonprofit organization that was founded in the year 1965.It is led by student teams from all the top universities in the world which creates entrepreneurial projects to address social, environmental, and economic issues in order to achieve the sustainable development goals in the community.
+
         </spane>
         <a href="#">
           <button className="button s-button">Read More</button>

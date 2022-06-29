@@ -20,13 +20,8 @@ const About = () => {
 
           <span  style={{color:"#FCA61F"}}>enactus do?</span>
           <spane>
-          Enactus came to life in Kalinga Institute of Industrial <br></br>
-          Technology (KIIT) and its sister institution Kalinga Institute <br></br>
-          of Social Sciences(KISS) in 2011 forming enactus KIIT-KISS under the <br></br> 
-          guidance of Dr. Kaish Q Khanur primary faculty adviser. Since then, <br></br>,
-          the student have been finding various innovative ideas to implement to<br></br> 
-          implement to improve the quality of life of those who lack or <br></br>
-          are unable to find opportunities.
+          Enactus came to life in Kalinga Institute Of Industrial Technology (KIIT) and its sister institution Kalinga Institute of Social Sciences (KISS) in 2011 forming enactus KIIT-KISS under the guidance of Dr. Kaish Q Khan, our primary faculty adviser. Since then, the students have been finding various innovative ideas to implement to improve the quality of life of those who lack or are unable to find opportunities.
+
 
           </spane>
           <Link to="contact" smooth={true} spy={true}>

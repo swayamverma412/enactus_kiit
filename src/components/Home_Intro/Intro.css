@@ -31,7 +31,8 @@
 .i-name > :nth-child(3) {
   font-size: 14px;
   color: #cccccc;
-  font-family: sans-serif;
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 10px;
 }
 .i-button {
