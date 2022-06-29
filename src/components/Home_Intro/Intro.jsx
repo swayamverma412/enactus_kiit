@@ -22,8 +22,8 @@ const Intro = () => {
           <br></br> developing the next generation of entrepreneurial<br></br> leaders and social innovators...
           </span>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Contact Us</button>
+        <Link to="value" smooth={true} spy={true}>
+          <button className="button i-button">Read More</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">

@@ -20,16 +20,16 @@ const Footer = () => {
         </ul>
         <ul className="menu">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Team</a>
+            <a href="/team">Team</a>
           </li>
           <li>
-            <a href="#">Project</a>
+            <a href="/project">Project</a>
           </li>
           <li>
-            <a href="#">Event</a>
+            <a href="/event">Event</a>
           </li>
           
            
