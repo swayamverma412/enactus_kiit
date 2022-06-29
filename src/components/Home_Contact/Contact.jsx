@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="contact">
           <span>Get in Touch</span>
-          <span   style={{color:"#ffbf00"}}>Contact us</span>
+          <span style={{color:"#ffbf00"}}>Contact us</span>
         </div>
       </div>
       <div className="c-right">
