@@ -54,7 +54,7 @@ textarea{
     font-weight: bold;
   }
   .contact > :nth-child(2) {
-    color: var(--orange);
+    color:"#FCA61F";
     font-size: 1.5rem;
     font-weight: bold;
   }
