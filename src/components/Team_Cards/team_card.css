@@ -17,6 +17,7 @@
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
+    margin-top: 1.5rem;
     margin: 0 25px;
   }
   .profile-card:hover{

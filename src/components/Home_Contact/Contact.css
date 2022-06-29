@@ -28,7 +28,7 @@
     padding: 0.3em;
     outline: none;
     background: transparent;
-    border: 2px solid  #FCA61F;
+    border: 2px solid  var(--gray);
     border-radius: 8px;
     font-size: 16px;   
 }
