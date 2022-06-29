@@ -14,10 +14,10 @@ const Event = () => {
             <Banner heading='Events'  />
             <div className="App" style={{color: "white"}} >          
             <div className='container'>
-            </div>
             <Home/>    
-            <Footer/>
+            </div>
              </div>
+             <Footer/>
          </div>
     )
 }

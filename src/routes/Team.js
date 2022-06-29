@@ -18,8 +18,9 @@ const Team = () => {
              <div className="App"  style={{color: "white"}}>  
              <Header heading="Team"/>   
              <TeamCard/>
-             <Footer />
         </div>
+        <Footer />
+
         </div>
     )
 }

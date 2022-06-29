@@ -19,16 +19,23 @@
     display: flex;
 }
 
-.nav-menu li {
+.nav-menu li  {
     padding: 0 1rem;
-   
 }
-.nav-menu link :hover{
+
+.nav-menu li :hover{
     color: #ffc000;
 }
-.nav-menu a {
+.nav-menu li :active{
+    color: #ffc000;
+}
+
+
+
+.nav-menu a :active {
     font-size: 1.2rem;
     font-weight: 500;
+
 }
 
 .nav-menu > ul :hover {

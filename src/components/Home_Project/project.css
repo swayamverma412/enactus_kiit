@@ -1,38 +1,38 @@
-.project {
+.home_project {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 55vh;
+  height: 57vh;
 
 }
 /* heading */
-.project span:nth-of-type(1) {
+.home_project span:nth-of-type(1) {
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
 }
 
-.project span:nth-of-type(2) {
+.home_project span:nth-of-type(2) {
   color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 /* slider */
-.project .swiper{
+.home_project .swiper{
     overflow: visible!important;
 }
 
-.project-slider {
+.home_project-slider {
   margin-top: 3rem;
   width: 100%;
 }
 
-.project-slider .swiper-slide {
+.home_project-slider .swiper-slide {
   width: 20rem;
 }
-.project img {
+.home_project img {
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;

@@ -1,23 +1,45 @@
 import React from "react";
-import "./Footer.css";
-import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import "./FooterStyles.css";
+import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
+
+
+
+
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
-      <div className="f-content">
-        <span>Zainkeepscode@gmail.com</span>
-        <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
-        </div>
+    <footer className="footer-color">
+      <div className="wave" >
+        
       </div>
-    </div>
+        <ul className="social_icon">
+          <li><a href="#"><i ><FaFacebook/></i></a></li>
+          <li><a href="#"><i ><FaTwitter/></i></a></li>
+          <li><a href="#"><i ><FaLinkedin/></i></a></li>
+
+        </ul>
+        <ul className="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Team</a>
+          </li>
+          <li>
+            <a href="#">Project</a>
+          </li>
+          <li>
+            <a href="#">Event</a>
+          </li>
+          
+           
+        </ul>
+
+      <p>
+      Copyright © Enactus KIIT-KISS | All Right Reserved
+      </p>
+    </footer>
+
   );
 };
 

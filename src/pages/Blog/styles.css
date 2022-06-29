@@ -6,8 +6,10 @@
 
 .blog-goBack {
   text-decoration: none;
-  font-size: 0.8rem;
-  color: #a9a9a9;
+  font-size: 1rem;
+  color: #ffff;
+  margin-top: 2rem;
+  margin-left: 2rem;
   font-weight: 500;
   margin-bottom: 2rem;
   display: block;
@@ -24,6 +26,7 @@
 
 .blog-wrap img {
   width: 100%;
+  border-radius: 5%;
 }
 
 .blog-subCategory {
@@ -36,4 +39,14 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+}
+@media screen and (max-width: 480px) {
+  .blog-goBack {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffff;
+    margin-top: 2rem;
+    font-weight: 500;
+    display: block;
+  }
 }

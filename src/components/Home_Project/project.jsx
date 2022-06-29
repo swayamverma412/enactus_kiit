@@ -10,7 +10,7 @@ import MusicApp from "../../img/musicapp.png";
 const Project = () => {
   
   return (
-    <div className="project" id="project">
+    <div className="home_project" id="home_project">
       {/* heading */}
       <span >Recent</span>
       <span>Projects</span>
@@ -20,7 +20,7 @@ const Project = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
-        className="project-slider"
+        className="home_project-slider"
       >
         <SwiperSlide>
           <img src={Sidebar} alt="" />

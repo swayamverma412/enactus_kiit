@@ -23,8 +23,9 @@ function Home() {
             <Project/>
             <About />
             <Contact />
-            <Footer />
         </div>
+          <Footer/>
+
         </div>
     )
 }
