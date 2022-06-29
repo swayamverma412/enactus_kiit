@@ -96,7 +96,17 @@
     }
 
     .project .img {
-        max-width: 105%;
+        max-width: 100%;
+    }
+
+    .left .img {
+        max-width: 80%;
+        border: 1px solid #333;
+    }
+
+    .right .img {
+        max-width: 80%;
+        border: 1px solid #333;
     }
 
 }
