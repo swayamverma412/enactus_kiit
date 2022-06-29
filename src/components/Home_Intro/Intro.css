@@ -141,8 +141,9 @@
   .i-name > :nth-child(3) {
     font-weight: 100;
     font-size: 14px;
-    color: var(--white);
+    color: #cccccc;
     margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     align-items: center;
     text-align: center;
