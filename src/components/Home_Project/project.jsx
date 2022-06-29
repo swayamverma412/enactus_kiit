@@ -13,7 +13,7 @@ const Project = () => {
     <div className="home_project" id="home_project">
       {/* heading */}
       <span >Recent</span>
-      <span  style={{color:"#ffbf00"}}>Projects</span>
+      <span  style={{color:"#FCA61F"}}>Projects</span>
 
       {/* slider */}
       <Swiper

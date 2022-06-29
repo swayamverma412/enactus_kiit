@@ -19,7 +19,7 @@ const About = () => {
             What does
           </span>
 
-          <span  style={{color:"#ffbf00"}}>enactus do?</span>
+          <span  style={{color:"#FCA61F"}}>enactus do?</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />

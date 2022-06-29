@@ -16,7 +16,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           <span >enactus</span>
-          <span  style={{color:"#ffbf00"}}>KIIT-KISS</span>
+          <span  style={{color:"#FCA61F"}}>KIIT-KISS</span>
           <span>
             Lorem ipsum dolor sit amet consectetur.
             <br></br> Praesentium cupiditate 

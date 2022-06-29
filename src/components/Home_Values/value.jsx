@@ -19,7 +19,7 @@ const Value = () => {
     <div className="value" id="value">
       <div className="awesome">
         <span style={{ color: "white"  }}>What</span>
-        <span style={{color:"#ffbf00"}}>we believe in?</span>
+        <span style={{color:"#FCA61F"}}>we believe in?</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br/>
