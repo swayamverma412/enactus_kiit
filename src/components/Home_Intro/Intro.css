@@ -151,6 +151,6 @@
   
   .i-right > :nth-child(1) {
     transform: scale(0.69);
-    opacity: 25%;
+    opacity: 35%;
   }
 }
