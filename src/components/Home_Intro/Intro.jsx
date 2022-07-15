@@ -6,6 +6,7 @@ import boy from "../../img/boy.png";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Triangle from "../../img/triangle.svg"
 import { Link } from "react-scroll";
 const Intro = () => {
  
@@ -34,9 +35,8 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={Triangle} alt="" />
+       
        
       </div>
     </div>
