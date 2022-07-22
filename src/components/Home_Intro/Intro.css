@@ -92,6 +92,8 @@
     right: 8rem;
     top: 0.5rem;
     opacity: 25%;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
   }
   
   .i-left {

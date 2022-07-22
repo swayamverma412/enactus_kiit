@@ -16,7 +16,7 @@ const Team = () => {
             <Navbar />
             <Banner heading='Team' />
              <div className="App"  style={{color: "white"}}>  
-             <Header heading="Team" paragraph="dnjn"/>   
+             <Header heading="Team" paragraph="We believe in transforming innovation into action and action into progress"/>   
              <TeamCard/>
         </div>
         <Footer />

@@ -3,10 +3,10 @@ import "./project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Sidebar from "../../img/Siddhi_1.png";
+import Ecommerce from "../../img/GENERIC1.png";
 import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import MusicApp from "../../img/Enwipe_1.png";
 const Project = () => {
   
   return (

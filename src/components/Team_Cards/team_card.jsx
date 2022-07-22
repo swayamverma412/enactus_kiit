@@ -20,7 +20,7 @@ const teamCard = () => {
             </div>
             <div class="caption">
                 <h3>Shreeja Verma</h3>
-                <p>DIRECTOR STRATS AND COMMUNICATION</p>
+                <p>Director Strats And Communication</p>
                 <div class="social-links">
                     <a href="https://instagram.com/shreejaverma__?igshid=YmMyMTA2M2Y="><i ><FaInstagram/></i></a>
                     <a href="https://m.facebook.com/100003059560731/"><i ><FaFacebook/></i></a>
@@ -34,7 +34,7 @@ const teamCard = () => {
             </div>
             <div class="caption">
                 <h3>Gaurav Verma</h3>
-                <p>DIRECTOR OPERATIONS</p>
+                <p>Director Operations</p>
                 <div class="social-links">
                 <a href="https://www.instagram.com/vgauravkumar"><i ><FaInstagram/></i></a>
                     <a href="https://www.facebook.com/gauravkumar.verma.7"><i ><FaFacebook/></i></a>
@@ -48,7 +48,7 @@ const teamCard = () => {
             </div>
             <div class="caption">
                 <h3 style={{color:"#000000"}}>Harsh Raj</h3>
-                <p>DIRECTOR DESIGN</p>
+                <p>Director Design</p>
                 <div class="social-links">
                 <a href=" https://www.instagram.com/harzssh/"><i ><FaInstagram/></i></a>
                     <a href="https://www.facebook.com/harshrajgodda/"><i ><FaFacebook/></i></a>
