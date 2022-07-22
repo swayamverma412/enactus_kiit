@@ -1,10 +1,10 @@
 import React from "react";
 import "./team_card.css";
-import Gaurav from "../../img/profile2.jpg"
-import Shreeja from "../../img/profile2.jpg"
-import Harsh from "../../img/profile2.jpg"
+import Gaurav from "../../img/Shreeja.jpeg"
+import Shreeja from "../../img/Shreeja.jpeg"
+import Harsh from "../../img/Harsh.png"
 
-import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter,FaInstagram} from 'react-icons/fa'
 
 
 
@@ -19,12 +19,12 @@ const teamCard = () => {
                 <img src={Shreeja}/>
             </div>
             <div class="caption">
-                <h3>Vin Diesel</h3>
-                <p>Senior App Developer</p>
+                <h3>Shreeja Verma</h3>
+                <p>DIRECTOR STRATS AND COMMUNICATION</p>
                 <div class="social-links">
-                    <a href="#"><i ><FaFacebook/></i></a>
-                    <a href="#"><i ><FaTwitter/></i></a>
-                    <a href="#"><i ><FaLinkedin/></i></a>
+                    <a href="https://instagram.com/shreejaverma__?igshid=YmMyMTA2M2Y="><i ><FaInstagram/></i></a>
+                    <a href="https://m.facebook.com/100003059560731/"><i ><FaFacebook/></i></a>
+                    <a href="https://www.linkedin.com/in/shreeja-verma-she-her-622b001b5"><i ><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>
@@ -33,12 +33,12 @@ const teamCard = () => {
                 <img src={Gaurav}/>
             </div>
             <div class="caption">
-                <h3>David Corner</h3>
-                <p>Front End Developer</p>
+                <h3>Gaurav Verma</h3>
+                <p>DIRECTOR OPERATIONS</p>
                 <div class="social-links">
-                <a href="#"><i ><FaFacebook/></i></a>
-                    <a href="#"><i ><FaTwitter/></i></a>
-                    <a href="#"><i ><FaLinkedin/></i></a>
+                <a href="https://www.instagram.com/vgauravkumar"><i ><FaInstagram/></i></a>
+                    <a href="https://www.facebook.com/gauravkumar.verma.7"><i ><FaFacebook/></i></a>
+                    <a href="https://www.linkedin.com/in/vgauravkumar"><i ><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>
@@ -47,12 +47,12 @@ const teamCard = () => {
                 <img src={Harsh}/>
             </div>
             <div class="caption">
-                <h3 style={{color:"#000000"}}>Tom Cruise</h3>
-                <p>Full Stact Developer</p>
+                <h3 style={{color:"#000000"}}>Harsh Raj</h3>
+                <p>DIRECTOR DESIGN</p>
                 <div class="social-links">
-                <a href="#"><i><FaFacebook/></i></a>
-                <a href="#"><i><FaTwitter/></i></a>
-                <a href="#"><i><FaLinkedin/></i></a>
+                <a href=" https://www.instagram.com/harzssh/"><i ><FaInstagram/></i></a>
+                    <a href="https://www.facebook.com/harshrajgodda/"><i ><FaFacebook/></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-raj-aa6557183/"><i ><FaLinkedin/></i></a>
                 </div>
             </div>
         </div>

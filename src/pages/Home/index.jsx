@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       {/* Page Header */}
-      <Header heading="Events" />
+      <Header heading="Events"  paragraph="An Impact for People, Planet and Prosperity"/>
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}

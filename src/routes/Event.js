@@ -11,7 +11,7 @@ const Event = () => {
     return (
         <div>
             <Navbar />
-            <Banner heading='Events'  />
+            <Banner heading='Events'/>
             <div className="App" style={{color: "white"}} >          
             <div className='container'>
             <Home/>    

@@ -29,6 +29,10 @@
   border-radius: 5%;
 }
 
+.blog-wrap h1{
+  margin-bottom: 1rem;
+  color: #ffc000;
+}
 .blog-subCategory {
   display: flex;
   justify-content: center;
@@ -39,6 +43,7 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   .blog-goBack {
