@@ -5,7 +5,6 @@ import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 import Sidebar from "../../img/Siddhi_1.png";
 import Ecommerce from "../../img/GENERIC1.png";
-import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/Enwipe_1.png";
 const Project = () => {
   
@@ -32,7 +31,7 @@ const Project = () => {
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={Ecommerce} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

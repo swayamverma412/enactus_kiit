@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterStyles.css";
-import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter ,FaInstagram } from 'react-icons/fa'
 
 
 
@@ -13,9 +13,9 @@ const Footer = () => {
         
       </div>
         <ul className="social_icon">
-          <li><a href="#"><i ><FaFacebook/></i></a></li>
-          <li><a href="#"><i ><FaTwitter/></i></a></li>
-          <li><a href="#"><i ><FaLinkedin/></i></a></li>
+          <li><a href="https://www.facebook.com/100024733697783/posts/1375648823269561/?mibextid=Yed3t44RZhCy0OuM"><i ><FaFacebook/></i></a></li>
+          <li><a href="https://www.instagram.com/p/CU98TSOouca/?igshid=YmMyMTA2M2Y="><i ><FaInstagram/></i></a></li>
+          <li><a href="https://www.linkedin.com/company/enactus-kiit/"><i ><FaLinkedin/></i></a></li>
 
         </ul>
         <ul className="menu">
