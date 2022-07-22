@@ -1,6 +1,6 @@
 import React from "react";
 import "./team_card.css";
-import Gaurav from "../../img/Shreeja.jpeg"
+import Gaurav from "../../img/Gaurav.jpg"
 import Shreeja from "../../img/Shreeja.jpeg"
 import Harsh from "../../img/Harsh.png"
 

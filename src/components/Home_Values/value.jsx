@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import "./value.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import Collab from "../../img/Collab_1.png";
+import Intregrity from "../../img/Intregrity.png";
+import Innovation from "../../img/Innovation.png";
 import { motion } from "framer-motion";
-import Moon from '../../assets/moon.jpg'
 
 const Value = () => {
   
@@ -34,7 +33,7 @@ const Value = () => {
           whileInView={{ left: "14rem" }}
           transition={transition}>
           <Card
-            emoji={HeartEmoji}
+            emoji={Intregrity}
             heading={"Integrity"}
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}/>
 
@@ -45,7 +44,7 @@ const Value = () => {
           whileInView={{ left: "-4rem" }}
           transition={transition}>
           <Card
-            emoji={Glasses}
+            emoji={Innovation}
             heading={"Innovation"}
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}/>
         </motion.div>
@@ -55,7 +54,7 @@ const Value = () => {
           whileInView={{ left: "12rem" }}
           transition={transition}>
           <Card
-            emoji={Humble}
+            emoji={Collab}
             heading={"Collaboration"}
             detail={
               "Lorem ispum dummy text are usually use in section where we need some random text"
