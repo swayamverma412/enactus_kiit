@@ -3,7 +3,7 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/boy.png";
-import Github from "../../img/github.png";
+import Github from "../../img/2.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Triangle from "../../img/triangle.svg"
@@ -28,7 +28,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-        <a href="#"><img src={Github} alt=""/></a>
+        <a href="https://www.facebook.com/kiitenactus/"><img src={Github} alt=""/></a>
         <a href="https://www.linkedin.com/company/enactus-kiit/"><img src={LinkedIn} alt=""/></a>
         <a href="https://instagram.com/enactus_kiit?igshid=YmMyMTA2M2Y="><img src={Instagram} alt=""/></a>
 
