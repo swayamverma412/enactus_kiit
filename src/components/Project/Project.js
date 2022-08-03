@@ -6,7 +6,12 @@ import Generic1 from '../../assets/GENERIC1.png'
 import Generic2 from '../../assets/GENERIC2.png'
 import Siddhi1 from '../../assets/Siddhi.png'
 import Siddhi2 from '../../assets/Siddhi1.png'
-
+import Vetra1 from '../../assets/vetra1.png'
+import Vetra2 from '../../assets/vetra2.png'
+import Sankalp1 from '../../assets/sankalp1.png'
+import Sankalp2 from '../../assets/sankalp2.png'
+import Encube2 from '../../assets/encube2.png'
+import Encube1 from '../../assets/encube1.jpg'
 
 
 const Project = () => {
@@ -55,6 +60,50 @@ const Project = () => {
                     </div>
                 </div>
             </div>
+            <div className='left'>
+                <div className='img-container'>
+                    <div className='image-stack top'>
+                        <img src={Vetra1} className='img' alt='' />
+                    </div>
+                    <div className='image-stack bottom'>
+                        <img src={Vetra2} className='img' alt='' />
+                    </div>
+                </div>
+            </div>
+            <div className='right'>
+                <h1 style={{color:"#Ffcc00"}}>Project Vetra</h1>
+                <p>ENACTUS KISS-KIIT has always strived to reduce the use of single use plastic, expanding our previous initiative of Project Siddhi we sell bamboo straws and edible cutlery as well as modifying our design for the paper bags by including a seed strip in it.  
+After the plastic ban which was enforced in Odisha in 2018, there was a drop in the use of plastic straws and bags. As a replacement for plastic straws, paper straws are used which are not reusable and tend to get soggy mid-use. The best replacement which can be adopted by restaurants and food services are bamboo straws. Our primary targets are restaurants and food services, and encourage them to stop the use of single-use plastic bags, straws and cutlery and instead use our venture.</p>
+            </div>
+            <div className='left'>
+                <h1 style={{color:"#Ffcc00"}}>Project Encube</h1>
+                <p>One of the most threatening issues we face today is water pollution. Our everyday activities have led to the massive demise of safe, clean water. Project ENCUBE seeks to minimize the usage of toxic detergents for washing clothes and replacing them with biodegradable detergent cubes.The sole focus of this project is to make affordable biodegradable detergent cubes. The commonly used detergents in households, laundry services and for other commercial purposes are toxic and contain non-biodegradable components which when left untreated and released in natural bodies cause pollution, and contaminate both water and soil.</p>
+            </div>
+            <div className='right'>
+                <div className='img-container'>
+                    <div className='image-stack top'>
+                        <img src={Encube2} className='img' alt='' />
+                    </div>
+                    <div className='image-stack bottom'>
+                        <img src={Encube1} className='img' alt='' />
+                    </div>
+                </div>
+            </div>
+            <div className='left'>
+                <div className='img-container'>
+                    <div className='image-stack top'>
+                        <img src={Sankalp1} className='img' alt='' />
+                    </div>
+                    <div className='image-stack bottom'>
+                        <img src={Sankalp2} className='img' alt='' />
+                    </div>
+                </div>
+            </div>
+            <div className='right'>
+                <h1 style={{color:"#Ffcc00"}}>Project Sankalp</h1>
+                <p>Plastic; this infamous need of our generation has been a very well-known environmental threat for the last decade and more. Adding to all the huge efforts being made to control and substitute plastic, we bring forward ‘Project Sankalp’- a project aimed to secure used plastic to build our greenest visions and ignite regenerative transition.Project Sankalp consists of three verticals- each working along the lines of up-cycling but, in different ways. Leading the project is the first vertical that aims to up-cycle plastic as bricks (Eco-bricks). The second vertical is what we get out when up-cycling meets the magic of hand-looming - Used plastic bags will be sterilized and then be processed into handloom yarns to give us beautiful, colorful pieces of fabric.</p>
+            </div>
+
             
         </div>
     )
